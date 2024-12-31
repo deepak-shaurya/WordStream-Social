@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 h-screen text-white flex justify-center items-center">
+    <div class="container max-w-72 mx-auto bg-gray-700 rounded-lg p-4 flex justify-center items-center h-auto gap-4 flex-col">
+        <h1 class="text-2xl my-2 ">login Account</h1>
+        <form class=" flex gap-4 p-3 max-w-72 flex-wrap  " action="/login" method="post">
+            <input  placeholder = "Enter Email" name = "email" class="bg-transparent w-30 border-2 rounded-lg outline-none px-1 py-1 text-mg " type = "email">
+            <input  placeholder = "Set Password" name = "password" class="bg-transparent w-30 border-2 rounded-lg outline-none px-1 py-1 text-mg " type = "password">
+            <input class="bg-blue-500 w-20  px-2 py-2 rounded-lg"   type="submit">
+        </form>
+        <a class=" bg-blue-500 px-5  py-2 rounded-lg"  href="/register">Don't have a Account? Register -</a>
+    </div>
+</body>
+</html>
